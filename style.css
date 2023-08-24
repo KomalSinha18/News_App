@@ -1,0 +1,16 @@
+.bg{
+    background:#3d3d3d;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items:stretch;
+    justify-content:center;
+    gap: 20px;
+    min-height: 100vh;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+}
